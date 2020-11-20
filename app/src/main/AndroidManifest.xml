@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.collegebustrack">
+    <!--
+         The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+         Google Maps Android API v2, but you must specify either coarse or fine
+         location permissions for the "MyLocation" functionality.
+    -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label=""
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".UpdateBus"></activity>
+        <activity android:name=".UpdateDriver" />
+        <activity android:name=".UpdateStudent" />
+        <activity android:name=".UpdateActivity" />
+        <activity android:name=".ChangePasswordStudent" />
+        <activity android:name=".ChangePasswordDriver" />
+        <activity android:name=".DriverProfile" />
+        <activity
+            android:name=".StudentProfile"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".StudentIndex" />
+        <activity android:name=".DriverIndex" />
+        <!--
+             The API key for Google Maps-based APIs is defined as a string resource.
+             (See the file "res/values/google_maps_api.xml").
+             Note that the API key is linked to the encryption key used to sign the APK.
+             You need a different API key for each encryption key, including the release key that is used to
+             sign the APK for publishing.
+             You can define the keys for the debug and release targets in src/debug/ and src/release/.
+        -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+
+        <activity
+            android:name=".StudentMain"
+            android:label="@string/title_activity_student_main" />
+        <activity
+            android:name=".DriverMain"
+            android:label="@string/title_activity_driver_main" />
+        <activity
+            android:name=".ViewBus"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ViewDriver"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ViewStudent"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".BusReg"
+            android:parentActivityName=".Admin" />
+        <activity
+            android:name=".DriverReg"
+            android:parentActivityName=".Admin" />
+        <activity android:name=".MainActivity2" />
+        <activity
+            android:name=".ui.login.LoginActivity"
+            android:label="@string/title_activity_login" />
+        <activity
+            android:name=".Admin"
+            android:label="@string/title_activity_admin"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Registration"
+            android:parentActivityName=".Admin" />
+        <activity
+            android:name=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

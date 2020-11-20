@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/purewhite">
+
+    <TextView
+        android:id="@+id/tvDName"
+        android:layout_width="255dp"
+        android:layout_height="32dp"
+        android:layout_marginTop="10dp"
+        android:fontFamily="serif"
+        android:text="Name"
+        android:textColor="@color/themecolor"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.281"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tvDphone"
+        android:layout_width="97dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="3dp"
+        android:fontFamily="sans-serif-condensed-light"
+        android:text="Phone"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.14"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvDName" />
+
+    <TextView
+        android:id="@+id/tvDBus"
+        android:layout_width="97dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="3dp"
+        android:layout_marginEnd="140dp"
+        android:layout_marginRight="140dp"
+        android:fontFamily="sans-serif-condensed-light"
+        android:text="BusID"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvDName" />
+
+    <TextView
+        android:id="@+id/tvDEmail"
+        android:layout_width="255dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="3dp"
+        android:fontFamily="sans-serif-condensed-light"
+        android:text="Email"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.282"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvDBus" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
