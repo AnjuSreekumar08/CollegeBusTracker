@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "393422510407",
+    "firebase_url": "https://trackingsystem-484c1.firebaseio.com",
+    "project_id": "trackingsystem-484c1",
+    "storage_bucket": "trackingsystem-484c1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:393422510407:android:fa0a943a56f9cb0cfc5462",
+        "android_client_info": {
+          "package_name": "com.example.collegebustrack"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "393422510407-0u2uiousol7jsbbiknpa04qdfion43hd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCJL-7vGL8QlTfXGWapIaIrgdR1c722Vd0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "393422510407-0u2uiousol7jsbbiknpa04qdfion43hd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:393422510407:android:35908dedabead8d6fc5462",
+        "android_client_info": {
+          "package_name": "com.example.trackingsystem"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "393422510407-0u2uiousol7jsbbiknpa04qdfion43hd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCJL-7vGL8QlTfXGWapIaIrgdR1c722Vd0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "393422510407-0u2uiousol7jsbbiknpa04qdfion43hd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
