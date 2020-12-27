@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context=".StudentProfile">
+
+    <FrameLayout
+        android:id="@+id/frameLayout"
+        android:layout_width="414dp"
+        android:layout_height="298dp"
+        android:background="@color/themecolor"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.6"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/child3"
+            android:layout_width="202dp"
+            android:layout_height="148dp"
+            android:layout_gravity="center"
+            android:contentDescription="Image"
+            app:srcCompat="@drawable/ic_profile22" />
+
+        <TextView
+            android:id="@+id/sname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|center"
+            android:fontFamily="sans-serif-medium"
+            android:text="TextView"
+            android:textColor="@color/purewhite"
+            android:textSize="32sp" />
+
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/sadm"
+        android:layout_width="350dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="45dp"
+        android:fontFamily="sans-serif-light"
+        android:gravity="center"
+        android:text="TextView"
+        android:textColor="@color/themecolor"
+        android:textSize="22sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/frameLayout" />
+
+    <TextView
+        android:id="@+id/sbranch"
+        android:layout_width="350dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="12dp"
+        android:fontFamily="sans-serif-light"
+        android:gravity="center"
+        android:text="TextView"
+        android:textColor="@color/themecolor"
+        android:textSize="22sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.476"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/sadm" />
+
+    <TextView
+        android:id="@+id/sbus"
+        android:layout_width="350dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="12dp"
+        android:fontFamily="sans-serif-light"
+        android:gravity="center"
+        android:text="TextView"
+        android:textColor="@color/themecolor"
+        android:textSize="22sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/sbranch" />
+
+    <TextView
+        android:id="@+id/semail"
+        android:layout_width="350dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="12dp"
+        android:fontFamily="sans-serif-light"
+        android:gravity="clip_horizontal|center"
+        android:text="TextView"
+        android:textColor="@color/themecolor"
+        android:textSize="22sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.47"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/sbus" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
