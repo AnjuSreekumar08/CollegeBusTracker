@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.collegebustrack.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+    <activity
+        android:id="@+id/nav_viewstudent"
+        android:name="com.example.collegebustrack.ViewStudent"
+        android:label="View Student"
+        tools:layout="@layout/activity_view_student"/>
+
+    <activity
+        android:id="@+id/nav_viewdriver"
+        android:name="com.example.collegebustrack.ViewDriver"
+        android:label="View Driver"
+        tools:layout="@layout/activity_view_driver"/>
+
+    <activity
+        android:id="@+id/nav_viewbus"
+        android:name="com.example.collegebustrack.ViewBus"
+        android:label="View Bus"
+        tools:layout="@layout/activity_view_bus"/>
+
+    <activity
+        android:id="@+id/nav_update"
+        android:name="com.example.collegebustrack.UpdateActivity"
+        android:label="Update"
+        tools:layout="@layout/activity_update"/>
+
+
+
+
+
+    <fragment
+        android:id="@+id/nav_logout"
+        android:name="com.example.collegebustrack.ui.home.HomeFragment"
+        android:label="LogOut"
+    tools:layout="@layout/fragment_home"/>
+
+</navigation>
