@@ -11,21 +11,17 @@
         android:id="@+id/text_home"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp"
-        android:layout_marginEnd="8dp"
         android:textAlignment="center"
         android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toBottomOf="@+id/btn10" />
 
     <Button
         android:id="@+id/btn10"
         android:layout_width="300dp"
         android:layout_height="45dp"
-        android:layout_marginTop="128dp"
+        android:layout_marginTop="16dp"
         android:background="#2196F3"
         android:fontFamily="@font/lato_bold"
         android:text="Add Student"
@@ -33,15 +29,15 @@
         android:textColor="#FFFFFF"
         android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.53"
+        app:layout_constraintHorizontal_bias="0.504"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toBottomOf="@+id/btn11" />
 
     <Button
         android:id="@+id/btn11"
         android:layout_width="300dp"
         android:layout_height="45dp"
-        android:layout_marginTop="17dp"
+        android:layout_marginTop="16dp"
         android:background="#2196F3"
         android:fontFamily="@font/lato_bold"
         android:text="Add Driver"
@@ -49,25 +45,24 @@
         android:textColor="#FFFFFF"
         android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.53"
+        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btn10" />
+        app:layout_constraintTop_toBottomOf="@+id/btn12" />
 
     <Button
         android:id="@+id/btn12"
         android:layout_width="300dp"
         android:layout_height="45dp"
+        android:layout_marginTop="130dp"
         android:background="#2196F3"
         android:fontFamily="@font/lato_bold"
         android:text="Add Bus"
         android:textAllCaps="false"
         android:textColor="#FFFFFF"
         android:textSize="20sp"
-        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.531"
+        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btn11"
-        app:layout_constraintVertical_bias="0.040" />
+        app:layout_constraintTop_toTopOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
