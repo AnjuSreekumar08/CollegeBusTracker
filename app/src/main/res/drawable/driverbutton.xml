@@ -10,11 +10,11 @@
             <solid android:color="@color/themecolor" />
 
             <corners
-                android:bottomLeftRadius="10.0dip"
-                android:bottomRightRadius="10.0dip"
-                android:radius="10.0dip"
-                android:topLeftRadius="10.0dip"
-                android:topRightRadius="10.0dip" />
+                android:bottomLeftRadius="12.0dip"
+                android:bottomRightRadius="12.0dip"
+                android:radius="12.0dip"
+                android:topLeftRadius="12.0dip"
+                android:topRightRadius="12.0dip" />
         </shape>
     </item>
 
